@@ -1,0 +1,20 @@
+/*
+Program Name : Valid Names Demo
+Concept      : Identifiers in C++
+Input        : None
+Output       : Displays values
+Logic        : Uses valid variable names
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int studentCount = 30;
+    float averageMarks = 85.5;
+
+    cout << "Students: " << studentCount << endl;
+    cout << "Average Marks: " << averageMarks << endl;
+
+    return 0;
+}
